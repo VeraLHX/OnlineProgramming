@@ -2,8 +2,7 @@
     <div>
          <p ref="p">I AM ROUTERTEST</p>
          <h1>获取到的参数：{{userID}}</h1>
-         <h1>我的名字是：{{userName}}</h1>
-         <h1>我的名字是：{{userName}}</h1>
+         <h1>我的名字是：{{userName}}</h1> 
          <router-link v-bind:to="{name:'HelloWorld'}" tag="button" replace>回到首页</router-link>
          <button @click = "changeshow">点我</button>
          <!-- <transition>
